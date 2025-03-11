@@ -22,18 +22,19 @@ function Welcome() {
             <li>
               <a href="#">Progress</a>
             </li>
+            <li>
+              <a href="#">Settings</a>
+            </li>
           </ul>
         </nav>
       </div>
       <div className="main-content">
+        <div className="welcome-box">
         <h1>Welcome!</h1>
         <div className="h2-container">
-          <button className="bg-[#F9C22E] py-1 px-4 rounded hover:bg-yellow-500 transition-all">
-            Get Started
-          </button>
-          <button className="bg-[#F9C22E] py-1 px-4 rounded hover:bg-yellow-500 transition-all">
-            Continue
-          </button>
+          <button className="button">Get Started</button>
+          <button className="button">Continue</button>
+        </div>
         </div>
       </div>
     </>
